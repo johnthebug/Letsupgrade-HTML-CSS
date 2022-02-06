@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Day 4</title>
+<style>
+form{
+font-size:25px;
+font-family:courier;
+}
+.hover{
+font-size:15px;
+}
+.hover:hover{
+color: #FF0018;
+}
+</style>
+
+</head>
+<body>
+<center><h1 style="font-weight:bold;">Community  signup Form</h1>
+<form>
+<fieldset>
+<label for="fname">First Name:</label>
+<input type="text" id="fnmae" name="fname" required><br>
+<label for="lname">Last&nbsp; Name:</label>
+<input type="text" id="lname" name="lname" required><br>
+<label for="gender">&emsp;&emsp;&emsp;&ensp; Gender </label>
+<input type="radio" id="gender" name="gender" required>Male
+<input type="radio" id="gender" name="gender">Female
+<input type="radio" id="gender" name="gender">Others<br>
+<label for="language"> Community : </label>
+<input list="language">
+<datalist id="language">
+	<option value="HTML">
+	<option value="Java">
+	<option value="Python">
+	<option value="Javascript">
+</datalist><br><br>
+<button type="button" class="hover">SIGN UP</button>
+</fieldset>
+</form>
+
+
+</body>
+</html>
